@@ -20,9 +20,5 @@ class Phone:
             print("\nPhone successfully saved to our records :)")
 
     def getAsArray(self):
-        row = []
-        row.append(self.color)
-        row.append(self.model)
-        row.append(self.brand)
-        return row
+        return [self.color, self.model, self.brand]
 
