@@ -13,10 +13,42 @@ To run the program, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the terminal and navigate to the directory where the program is cloned.
    **Note** I decided it was best to use a simple library called `tabulate`. It just helps to display the data in a more user-friendly manner :)
-3. Install the dependencies listed in the requirements.txt file using a package manager of your choice. For example, if you are using pip, you can run the following command:
-`pip install -r requirements.txt`
-5. Run the `PhoneManager.py` script. `py PhoneManager.py` (you will need python)
-5. Follow the prompts in the console to interact with the program.
+3. Install Python.
+    
+Make sure Python is installed on your system. 
+You can download the latest version of Python from the official Python website at https://www.python.org/downloads/ 
+and follow the installation instructions for your operating system.
+
+Check Pip Installation
+Check if pip, the package manager for Python, is installed on your system.
+
+You can do this by running the following command in your terminal or command prompt:
+```
+pip --version
+```
+4. Create and Activate a Virtual Environment
+
+On Windows
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+On Mac/Linux
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+4. Install the dependencies listed in the requirements.txt file using a package manager of your choice. For example, if you are using pip, you can run the following command:
+```
+pip install -r requirements.txt
+```
+5. Run the `PhoneManager.py` script. 
+```   
+py PhoneManager.py
+```
+6. Follow the prompts in the console to interact with the program.
 
 ## Features
 
